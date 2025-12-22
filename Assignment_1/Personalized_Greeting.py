@@ -8,4 +8,6 @@ Problem Statement: Write a Python program that:
 # Answer:
 f_name = input("Enter your first name: ")
 l_name = input("Enter your last name: ")
-print('Hello,', f_name, l_name + "!", 'Welcome to Python program.')
+print(f"Your full name is: {f_name}.upper {l_name}")
+print('Hello,', f_name, l_name + "!", 'Welcome to the Python program.')
+print(f"Hello {f_name} {l_name}! Welcome to the Python program.")
